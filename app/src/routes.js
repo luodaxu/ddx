@@ -7,7 +7,7 @@ import rootContainer from './containers/rootContainer';
 import loginContainer from './containers/loginContainer';
 import createContainer from './containers/createContainer';
 import postContainer from './containers/postContainer';
-
+// route.js
 export default ()=>{
   return (
     <Route component={rootContainer}>
